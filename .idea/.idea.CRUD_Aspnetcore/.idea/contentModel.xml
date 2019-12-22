@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_CRUD_Aspnetcore.2123491774.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CRUD_Aspnetcore" t="IncludeRecursive">
         <e p="CRUD_Aspnetcore.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="CountriesController.cs" t="Include" />
+          <e p="TestController.cs" t="Include" />
+        </e>
         <e p="DbSeedingClass.cs" t="Include" />
+        <e p="Dtos" t="Include">
+          <e p="CountryDto.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20191211105918_init.Designer.cs" t="Include" />
           <e p="20191211105918_init.cs" t="Include" />
@@ -28,6 +36,8 @@
         </e>
         <e p="Services" t="Include">
           <e p="BookDbContext.cs" t="Include" />
+          <e p="CountryRepository.cs" t="Include" />
+          <e p="ICountryRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="appsettings.Development.json" t="Include" />

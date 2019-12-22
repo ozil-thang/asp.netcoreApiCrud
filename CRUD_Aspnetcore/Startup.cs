@@ -26,6 +26,8 @@ namespace CRUD_Aspnetcore
         {
             services.AddMvc();
 
+            services.AddTransient<ICountryRepository, CountryRepository>();
+            
             var connectionString = Configuration["connectionStrings:bookDbConnectionString"];
             services.AddDbContext<BookDbContext>(c => c.UseMySql(connectionString));
         }
